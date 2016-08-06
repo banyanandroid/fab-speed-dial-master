@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="10dp"
+    android:padding="5dip" >
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/image_placeholder"/>
+
+    </LinearLayout>
+
+    <!-- Title Of Song-->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="eswari"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:typeface="sans"
+        android:textSize="25dip"
+        android:textStyle="bold"/>
+
+
+
+    <!-- &lt;!&ndash; Rightend Arrow &ndash;&gt;
+     <ImageView android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@mipmap/ic_launcher_pluss"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"/>-->
+</LinearLayout>
