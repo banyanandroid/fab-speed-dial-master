@@ -19,29 +19,32 @@
 
     <application
         android:allowBackup="false"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/app"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <!-- call permission -->
         <uses-permission android:name="android.permission.CALL_PHONE" />
         <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+        <uses-permission android:name="android.intent.action.CALL_PRIVILEGED"></uses-permission>
+
 
         <uses-permission android:name="android.permission.INTERNET" />
         <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
-
-
-
         <activity
-            android:name="io.github.yavski.fabspeeddial.samples.MainActivity"
+            android:name="io.github.yavski.fabspeeddial.samples.Acitivity_Splash"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="io.github.yavski.fabspeeddial.samples.MainActivity"
+            android:label="@string/app_name">
+        </activity>
+
 
 
 

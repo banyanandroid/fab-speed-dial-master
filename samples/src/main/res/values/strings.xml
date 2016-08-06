@@ -18,5 +18,5 @@
     <string name="app_name">USSD Code</string>
     <string name="menu_item_call">Recharger</string>
     <string name="menu_item_text">Share</string>
-    <string name="menu_item_email">About us</string>
+    <string name="menu_item_email">About</string>
 </resources>

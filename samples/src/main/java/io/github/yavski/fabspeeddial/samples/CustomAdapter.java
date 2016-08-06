@@ -192,7 +192,7 @@ public class CustomAdapter extends BaseExpandableListAdapter {
             img.setImageResource(R.drawable.bsnl);
         }else if(name=="Tata DoCoMo")
         {
-            img.setImageResource(R.drawable.docomo);
+            img.setImageResource(R.drawable.doc);
         }
 
         return convertView;
